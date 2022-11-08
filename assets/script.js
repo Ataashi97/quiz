@@ -97,7 +97,7 @@ const questions = [
         question: "The 4th Shinobi war starts in the Land of Iron?",
         answers: [
             { text: "True", correct: true },
-            { text: "Fals", correct: false },
+            { text: "False", correct: false },
         ]
     },
     {
@@ -108,5 +108,14 @@ const questions = [
         { text: "15", correct: false },
         { text: "3", correct: false },
     ]
-    }
+    },
+    {
+        question: "Who did Naruto meet when his seal almost broke?",
+        answers: [
+            { text: "Hagoromo", correct: false },
+            { text: "Kushina Uzumaki", correct: false },
+            { text: "Minato Namikaze", correct: true },
+            { text: "Killer-B", correct: false },
+        ]
+        }
 ]
